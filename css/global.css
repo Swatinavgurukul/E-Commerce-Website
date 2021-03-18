@@ -1,0 +1,395 @@
+/* font-family */
+@font-face {
+  font-family: semiBold-font;
+  src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: medium-font;
+  src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: bold-fond;
+  src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: regular-fond;
+  src: url(../font/Poppins-Regular.ttf);
+}
+/* font-family */
+/* global css */
+img:hover {
+  transform: scale(0.9);
+}
+button:hover {
+  transform: scale(1.1);
+}
+/* global css */
+
+/* navbar */
+.navbarSec {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000001a;
+}
+.navLogo {
+  font-weight: bold;
+  font-size: 31px;
+  font-family: regular-fond;
+}
+.navLogoDark {
+  color: #212121;
+}
+.navLogeCover {
+  color: #ed3897;
+}
+
+.firstNavbarUl li a {
+  font-size: 13px;
+  font-family: medium-font;
+  color: #979797;
+}
+.searchBtnInput {
+  position: relative;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.searchBtnInput img {
+  position: absolute;
+  margin-top: 11px;
+}
+.searchBtnInput input {
+  font-family: regular-fond;
+  font-size: 13px;
+  padding-left: 30px;
+  color: #cbcbcb;
+}
+
+.navbarUl .nav-link {
+  padding: 6px;
+}
+.new {
+  bottom: 23px;
+  left: 11px;
+  font-size: 10px;
+  font-family: medium-font;
+  color: #ffffff;
+  background: #ed3897 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+
+.navbarUl a {
+  font-size: 13px;
+  font-family: medium-font;
+  color: #212121;
+}
+.colorText {
+  font-family: medium-font;
+  color: #ed3897;
+}
+.navbarUl li i {
+  font-size: 12px;
+  color: #000000;
+}
+.navbarUl li a:hover {
+  color: #3bd28c;
+}
+/* navbar */
+/* --banner-- */
+.bannerTop img {
+  object-fit: cover;
+  width: 100%;
+}
+/* banner */
+.bodyBg {
+  background: #fafafa 0% 0% no-repeat padding-box;
+}
+/* sidebar */
+.sidebarTitle {
+  font-size: 12px;
+  color: #797979;
+  font-family: regular-fond;
+}
+.sidebarProduct {
+  font-size: 16px;
+  color: #212121;
+  font-family: semiBold-font;
+  border: 1px solid #707070;
+}
+.readyShip {
+  font-size: 13px;
+  color: #212121;
+  font-family: medium-font;
+}
+
+.readyShip span {
+  font-size: 13px;
+  color: #797979;
+  font-family: medium-font;
+}
+
+.sidebarHeading {
+  font-size: 16px;
+  color: #212121;
+  font-family: semiBold-font;
+}
+
+.sidebarSearch {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dbdbdb;
+  color: #aaaaaa;
+  font-size: 13px;
+  font-family: regular-fond;
+}
+
+.seeAllBtn {
+  font-size: 14px;
+  color: #ed3897;
+  font-family: semiBold-font;
+}
+.minPrice,
+.maxPrice {
+  font-family: medium-font;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.rupSymbol {
+  top: 38px;
+  left: 0;
+}
+.priceInputFieldsbox {
+  font-family: medium-font;
+  color: #212121;
+  font-size: 13px;
+}
+
+.progressBar {
+  height: 4px;
+  background-color: #ed3897;
+}
+.progressBarLeftCircle,
+.progressBarRightCircle {
+  width: 19px;
+  height: 19px;
+  background-color: #ed3897;
+}
+.progressBarLeftCircle {
+  top: -7px;
+  left: -18px;
+}
+.progressBarRightCircle {
+  top: -7px;
+  right: 0;
+}
+.miniRange,
+.maxRange {
+  font-family: medium-font;
+  font-size: 13px;
+  color: #b1b1b1;
+}
+/* sidebar */
+/* eoss Info */
+.eossHeadingText {
+  font-family: semiBold-font;
+  font-size: 24px;
+  color: #212121;
+}
+.eossLightText {
+  font-family: medium-font;
+  font-size: 15px;
+  color: #797979;
+}
+.sortBy {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c2c2c2;
+}
+.sortBy span {
+  font-family: regular-fond;
+  font-size: 12px;
+  color: #797979;
+  margin-right: 9px;
+}
+.sortBy h5 {
+  font-family: semiBold-font;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #212121;
+  margin-top: 10px;
+}
+.eossHr {
+  border: 1px solid black;
+}
+.eossSec p {
+  margin-bottom: 3px;
+}
+.eossSecName {
+  font-family: semiBold-font;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #212121;
+}
+.eossSecAbout {
+  font-family: medium-font;
+  font-size: 13px;
+  color: #797979;
+}
+.eossSecImg img {
+  width: 100%;
+  object-fit: contain;
+}
+.eossSecHead {
+  font-family: semiBold-font;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #212121;
+  margin-right: 8px;
+  margin-top: 5px !important;
+}
+.eossSecText {
+  font-size: 15px;
+  font-family: medium-font;
+  color: #c2c2c2;
+  margin-right: 8px;
+  text-decoration-line: line-through;
+}
+.eossBtn {
+  font-family: medium-font;
+  /* font-size: 11px; */
+  background: #ed3897 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+/* eoss Info */
+/* features */
+.featuresNumbers {
+  font-family: medium-font;
+  font-size: 16px;
+  color: #212121;
+}
+
+.featuresText {
+  font-family: semiBold-font;
+
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #212121;
+}
+/* features */
+/* contact info */
+.contactHead {
+  font-family: bold-fond;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #212121;
+}
+.contactsTextInfo p {
+  font-family: regular-fond;
+  font-size: 14px;
+  color: #212121;
+  /* margin-bottom: 0px; */
+}
+
+.radioText {
+  font-size: 13px;
+  font-family: regular-fond;
+
+  color: #212121;
+}
+.formData input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-family: regular-fond;
+  padding-left: 7px;
+}
+.formData button {
+  /* padding: 5px; */
+  font-family: medium-font;
+  font-size: 11px;
+  background: #212121 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+/* contact info */
+
+/* paymentMethod */
+
+.vertical {
+  border-left: 1px solid #c1c1c1;
+  height: 75px;
+}
+.paymentMethod h6 {
+  letter-spacing: 0px;
+  color: #212121;
+  font-size: 20px;
+  font-family: semiBold-font;
+}
+.paymentMethod p {
+  font-family: semiBold-font;
+  /* margin-left: 23px; */
+  font-size: 12px;
+  color: #212121;
+}
+.signUp p {
+  font-family: semiBold-font;
+  font-size: 11px;
+  color: #212121;
+}
+.signUpForm input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-family: regular-fond;
+}
+.signUpForm button {
+  font-family: semiBold-font;
+  font-size: 16px;
+  /* text-align: left; */
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #212121 0% 0% no-repeat padding-box;
+}
+/* paymentMethod */
+
+/* Footer */
+
+.e-commereceFooter h1 {
+  font-family: semiBold-font;
+  font-size: 12px;
+  color: #212121;
+}
+.e-commereceFooter .borderTable{
+  border: 1px solid #000;
+}
+.e-commereceFooter .borderless td,
+.e-commereceFooter .borderless th {
+  border: none;
+  padding: 2px;
+}
+.e-commereceFooter .borderBox {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.e-commereceFooter p {
+  font-family: medium-font;
+  font-size: 11px;
+  color: #212121;
+}
+
+/* Footer */
+
+
+/* Small devices (tablets or large size smart phone of size 768px and up) */ 
+/* @media (min-width: 768px) {  }  */
+
+/* Medium devices (desktops, laptops of size 992px and up) */ 
+/* @media (min-width: 992px) {  }  */
+
+/* Large devices (large desktops, screens of size 1200px and up) */ 
+/* @media (min-width: 1200px) {  } */
